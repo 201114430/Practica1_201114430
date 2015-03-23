@@ -9,7 +9,7 @@ public class JuegoAbc {
 		char letra[];
 		letra = letraIng.toCharArray();
 		
-		for(int i=0;i<100;i++)
+		/*for(int i=0;i<100;i++)
 			System.out.println("");
 		int a=(int)'a';
 		int A=(int)'A';
@@ -20,7 +20,7 @@ public class JuegoAbc {
 		for(int i=0;i<matrizabc.length;i++){
 			matrizabc[i]=(char)(a+i);
 			matrizABC[i]=(char)(A+i);
-		}
+		}*/
         System.out.println("Inicio del Juego ingrese una letra hasta adivinar");
 		String segundaLetra = entrada.next();
 		char segundachar[];

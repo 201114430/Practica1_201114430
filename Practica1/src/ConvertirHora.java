@@ -1,7 +1,7 @@
 import java.util.Scanner;
 //import java.util.regex.Pattern;
 public class ConvertirHora {
-	public static boolean esHoram(int hora){
+	public static boolean esHorAM(int hora){
 		if(hora>=0 & hora<=11)
 				return true;
 		return false;
@@ -33,11 +33,17 @@ public class ConvertirHora {
 			for(int i=0;i<2;i++){				
 				horanum[i]=Integer.parseInt(matrizh[i]);
 			}
-			if(esHoram(horanum[0]) && esMinu(horanum[1])){/*para validar el rango de la hora am*/
+			if(esHorAM(horanum[0]) && esMinu(horanum[1])){/*para validar el rango de la hora am*/
 				if(horanum[1]<10)
 				System.out.println((horanum[0])+":0"+horanum[1]+" AM");
 				else
 					System.out.println((horanum[0])+":"+horanum[1]+" AM");
+			}
+			else if(esHora(horanum[0]) && horanum[0]==12){
+				if(horanum[1]<10)
+					System.out.println((horanum[0])+":0"+horanum[1]+" PM");
+					else
+						System.out.println((horanum[0])+":"+horanum[1]+" PM");
 			}
 			else if(esHora(horanum[0]) && esMinu(horanum[1])){/*para validar el rango de la hora pm*/
 				if(horanum[1]<10)

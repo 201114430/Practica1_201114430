@@ -15,7 +15,7 @@ public class Fechas {
 		return false;
 		}
 	public static boolean esMes(int mes){
-		if(mes>=1 | mes<=12)
+		if(mes>=1 | mes<=11)
 				return true;
 		return false;
 		}

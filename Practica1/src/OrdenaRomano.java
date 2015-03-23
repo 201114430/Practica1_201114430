@@ -18,7 +18,7 @@ public class OrdenaRomano {
 	public static String base(char primerDigito){
 		if(primerDigito=='0')
 			return "cero.";		
-		if(primerDigito=='1')
+		else if(primerDigito=='1')
 			return "uno.";
 		else if(primerDigito=='2')
 				return "dos.";
