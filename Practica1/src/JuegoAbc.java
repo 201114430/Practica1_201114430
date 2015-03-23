@@ -9,9 +9,9 @@ public class JuegoAbc {
 		char letra[];
 		letra = letraIng.toCharArray();
 		
-		/*for(int i=0;i<100;i++)
+		for(int i=0;i<100;i++)
 			System.out.println("");
-		int a=(int)'a';
+		/*int a=(int)'a';
 		int A=(int)'A';
 		char matrizabc[];
 		char matrizABC[];

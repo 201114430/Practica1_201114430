@@ -9,7 +9,7 @@ public class Nivel2 {
 		int opcion = 0;
 		do{
 		System.out.println("Bienvenidos al Nivel 2:");
-		System.out.println("6.) Ejercicio 6. \n"+"7.) Ejercicio 7. \n"+"7.) Ejercicio 7. \n"+"8.) Ejercicio 8. \n"+"9.) Ejercicio 9. \n"+"10.) Ejercicio 10. \n"+"11.) Ejercicio 11. \n"+"12.) Ejercicio 12. \n"+"13.) Ejercicio 13. \n"+"14.) Ejercicio 14. \n"+"15.) Ejercicio 15. \n" +"0.) Menu Principal. \n");
+		System.out.println("6.) Ejercicio 6. \n"+"7.) Ejercicio 7. \n"+"8.) Ejercicio 8. \n"+"9.) Ejercicio 9. \n"+"10.) Ejercicio 10. \n"+"11.) Ejercicio 11. \n"+"12.) Ejercicio 12. \n"+"13.) Ejercicio 13. \n"+"14.) Ejercicio 14. \n"+"15.) Ejercicio 15. \n" +"0.) Menu Principal. \n");
 		opcion = entrada.nextInt();
 		switch(opcion){
 		case 0:

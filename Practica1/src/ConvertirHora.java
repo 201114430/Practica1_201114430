@@ -16,7 +16,6 @@ public class ConvertirHora {
 				return true;
 		return false;
 		}
-
 	ConvertirHora() {
 		Scanner entrada=new Scanner(System.in);
 		System.out.println("Bienvenido al programa que cambia el formato de la hora. \n"+"Ingrese la hora en formato militar");
